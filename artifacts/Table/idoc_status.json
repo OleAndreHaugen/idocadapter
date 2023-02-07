@@ -1,0 +1,33 @@
+{
+	"id": "c7621d0b-1ba3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-02T17:00:11.110Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "425e6957-1153-458e-fbbb-ea91edfa73be",
+			"fieldName": "status",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Status",
+			"isNullable": true
+		},
+		{
+			"id": "3494f038-9ee3-49b2-d436-fdb9b2a40cd5",
+			"fieldName": "name",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Name"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "idoc_status",
+	"description": "iDoc Adapter: Status",
+	"ver": "23.2.2.180",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "66fca407-1aa3-ed11-994c-000d3a66eaa0",
+	"rolesRead": [],
+	"rolesWrite": []
+}

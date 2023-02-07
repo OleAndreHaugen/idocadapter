@@ -1,0 +1,38 @@
+[
+	{
+		"id": "ec1654be-68e3-4da3-9d5e-009eae0bc587",
+		"createdAt": "1675358121443",
+		"updatedAt": "1675358121443",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "Q",
+		"name": "Queue"
+	},
+	{
+		"id": "aa298946-e166-4a86-947c-796dd786fe79",
+		"createdAt": "1675358121443",
+		"updatedAt": "1675358121443",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "W",
+		"name": "Waiting"
+	},
+	{
+		"id": "337136c7-696a-48c2-818f-7524321337de",
+		"createdAt": "1675358121443",
+		"updatedAt": "1675358121443",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "E",
+		"name": "Error"
+	},
+	{
+		"id": "0d8e2e1b-465f-4ef8-a8d0-f535accbb96b",
+		"createdAt": "1675358150486",
+		"updatedAt": "1675358150486",
+		"createdBy": "ole-andre.haugen@neptune-software.com",
+		"updatedBy": "ole-andre.haugen@neptune-software.com",
+		"status": "C",
+		"name": "Completed"
+	}
+]

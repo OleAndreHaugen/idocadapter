@@ -1,0 +1,26 @@
+{
+	"id": "ceb65b57-1fa3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-02T17:30:53.330Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "0ED83381-1AA3-ED11-994C-000D3A66EAA0",
+			"name": "idoc",
+			"contextname": "idoc"
+		}
+	],
+	"apis": [],
+	"name": "idocDetail",
+	"ver": "23.2.2.1733",
+	"description": "iDoc Details",
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0c4246aa-1aa3-ed11-994c-000d3a66eaa0",
+	"package": "66fca407-1aa3-ed11-994c-000d3a66eaa0"
+}

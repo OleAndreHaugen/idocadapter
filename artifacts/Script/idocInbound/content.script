@@ -1,0 +1,8 @@
+try {
+    log.info("IDOC Adapter: Receiving iDoc");
+    await entities.idoc.save({ STATUS: "W", XML: req.body, SIZE: req.body.length });
+    complete();
+} catch (e) {
+    log.error("IDOC Adapter: " + e);
+    complete();
+}

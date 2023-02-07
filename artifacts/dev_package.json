@@ -10,16 +10,63 @@
 	"ver": "23.2.2.1654",
 	"enableCICD": true,
 	"apps": [],
-	"api": [],
+	"api": [
+		{
+			"id": "9284dfbb-1ba3-ed11-994c-000d3a66eaa0",
+			"name": "idocAdapter",
+			"description": null,
+			"apiGroup": null
+		}
+	],
 	"odataSource": [],
 	"odataMock": [],
-	"dictionary": [],
-	"jsclass": [],
-	"jsscript_group": [],
+	"dictionary": [
+		{
+			"id": "c7621d0b-1ba3-ed11-994c-000d3a66eaa0",
+			"name": "idoc_status",
+			"description": "iDoc Adapter: Status"
+		},
+		{
+			"id": "0ed83381-1aa3-ed11-994c-000d3a66eaa0",
+			"name": "idoc",
+			"description": "iDoc Adapter: Inbound iDocs"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "e88e44bc-1aa3-ed11-994c-000d3a66eaa0",
+			"name": "idocInbound",
+			"description": "iDoc Receiver"
+		},
+		{
+			"id": "ceb65b57-1fa3-ed11-994c-000d3a66eaa0",
+			"name": "idocDetail",
+			"description": "iDoc Details"
+		},
+		{
+			"id": "101a462b-1ba3-ed11-994c-000d3a66eaa0",
+			"name": "idocProcess",
+			"description": "Process iDoc"
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "0c4246aa-1aa3-ed11-994c-000d3a66eaa0",
+			"name": "idocAdapter",
+			"description": null
+		}
+	],
 	"theme": [],
 	"pdf": [],
 	"rulesengine": [],
-	"reports": [],
+	"reports": [
+		{
+			"id": "ddf51cfc-1ca3-ed11-994c-000d3a66eaa0",
+			"name": "idoc_monitor",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		}
+	],
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [],
@@ -31,9 +78,21 @@
 	"doc": [],
 	"wf_notifications": [],
 	"department": [],
-	"script_scheduler": [],
+	"script_scheduler": [
+		{
+			"id": "d2ac625d-1ca3-ed11-994c-000d3a66eaa0",
+			"name": "iDoc Adapter - Inbound Processing",
+			"description": "iDoc Adapter - Inbound Processing"
+		}
+	],
 	"wf_definition": [],
-	"connector": [],
+	"connector": [
+		{
+			"id": "a6d6dbe1-1ca3-ed11-994c-000d3a66eaa0",
+			"name": "iDoc Adapter",
+			"description": "iDoc Adapter"
+		}
+	],
 	"events": [],
 	"media_library": []
 }

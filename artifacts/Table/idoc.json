@@ -1,0 +1,76 @@
+{
+	"id": "0ed83381-1aa3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-02T16:56:19.626Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"fields": [
+		{
+			"id": "540a30ff-b0cc-449c-e9fb-256985ddc049",
+			"fieldName": "STATUS",
+			"fieldType": "text"
+		},
+		{
+			"id": "0c15dfd9-4888-441d-9634-ac2022dec06f",
+			"fieldName": "DOCNUM",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "82a5edb0-55ec-4a51-de8c-a27bcd1d8bac",
+			"fieldName": "IDOCTYP",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "c6b198c9-d21d-4031-fdcf-5f83142e6aaf",
+			"fieldName": "MESTYP",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "64c9ff14-2c2c-4613-be64-a5fb4ce151de",
+			"fieldName": "SNDPRN",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "2bf24661-611d-4447-ed01-f6cf8aed7842",
+			"fieldName": "SNDLAD",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "d2969265-b8c9-4778-de17-c5beb157d7b7",
+			"fieldName": "SIZE",
+			"fieldType": "bigint",
+			"isNullable": true
+		},
+		{
+			"id": "4917c0f4-cfea-4d5f-a774-bfb154089edf",
+			"fieldName": "MESSAGE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "73c1f04c-c441-4b35-9488-4a37024c8510",
+			"fieldName": "XML",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "f9cce2e0-d9e9-42ad-dbab-90a8039cc8a5",
+			"fieldName": "JSON",
+			"fieldType": "json",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "idoc",
+	"description": "iDoc Adapter: Inbound iDocs",
+	"ver": "23.2.2.181",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "66fca407-1aa3-ed11-994c-000d3a66eaa0",
+	"rolesRead": [],
+	"rolesWrite": []
+}

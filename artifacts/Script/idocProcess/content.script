@@ -1,0 +1,66 @@
+const XMLParser = modules.xml2js;
+const XMLBuilder = new XMLParser.Builder();
+
+let idocWaiting = await entities.idoc.find({
+    where: {
+        STATUS: "W"
+    },
+    order: {
+        updatedAt: "ASC"
+    },
+});
+
+// Check queue 
+for (let i = 0; i < idocWaiting.length; i++) {
+
+    let idoc = idocWaiting[i];
+
+    try {
+
+        // Parse XML to JSON
+        let idocJson = await parseXMltoJSON(idoc.XML);
+
+        // Get iDoc Type
+        const idocType = Object.keys(idocJson)[0];
+
+        // Get IDoc control record
+        let controlRecord = idocJson[idocType].IDOC.EDI_DC40;
+        if (!controlRecord) controlRecord = idocJson[idocType].IDOC[0].EDI_DC40;
+
+        idoc.STATUS = "Q";
+        idoc.DOCNUM = controlRecord.DOCNUM;
+        idoc.IDOCTYP = controlRecord.IDOCTYP;
+        idoc.MESTYP = controlRecord.MESTYP;
+        idoc.SNDPRN = controlRecord.SNDPRN;
+        idoc.SNDLAD = controlRecord.SNDLAD;
+        idoc.JSON = idocJson
+
+        await entities.idoc.save(idoc);
+
+
+    } catch (e) {
+        log.error("iDoc Processing Queue: " + JSON.stringify(e));
+        idoc.STATUS = "ERROR";
+        await entities.idoc.save(idoc);
+    }
+
+}
+
+complete();
+
+
+async function parseXMltoJSON(xmlData) {
+
+    return new Promise((resolve, reject) => {
+
+        XMLParser.parseStringPromise(xmlData, { explicitArray: false }).then(async function (idoc) {
+            resolve(idoc);
+        }).catch(function (e) {
+            log.error("IDOC Parsing Error: " + e);
+            resolve();
+        });
+
+    });
+
+
+}

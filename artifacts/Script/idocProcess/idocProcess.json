@@ -1,0 +1,33 @@
+{
+	"id": "101a462b-1ba3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-02T17:01:07.680Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "806F4E27-4953-EC11-981F-A085FCBC956D",
+			"name": "xml2js",
+			"contextname": "xml2js",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/xml2js"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "0ED83381-1AA3-ED11-994C-000D3A66EAA0",
+			"name": "idoc",
+			"contextname": "idoc"
+		}
+	],
+	"apis": [],
+	"name": "idocProcess",
+	"ver": "23.2.2.1711",
+	"description": "Process iDoc",
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "0c4246aa-1aa3-ed11-994c-000d3a66eaa0",
+	"package": "66fca407-1aa3-ed11-994c-000d3a66eaa0"
+}

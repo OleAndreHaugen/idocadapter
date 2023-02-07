@@ -1,0 +1,17 @@
+{
+	"id": "a6d6dbe1-1ca3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-02T17:13:17.213Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"settings": {
+		"tableid": "0ed83381-1aa3-ed11-994c-000d3a66eaa0",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "iDoc Adapter",
+	"description": "iDoc Adapter",
+	"group": null,
+	"type": "T",
+	"ver": "23.2.2.1713",
+	"disabled": false,
+	"package": "66fca407-1aa3-ed11-994c-000d3a66eaa0"
+}

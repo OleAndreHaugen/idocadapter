@@ -1,0 +1,70 @@
+{
+	"id": "9284dfbb-1ba3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-02T17:05:04.000Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "c2a21570-1506-428c-ff46-b75cc0e97655",
+			"method": "POST",
+			"path": "/inbound",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "e88e44bc-1aa3-ed11-994c-000d3a66eaa0"
+		},
+		{
+			"id": "7b100d9e-1f06-4747-c402-89b7ba54731e",
+			"method": "GET",
+			"path": "/detail",
+			"description": "",
+			"parameters": [
+				{
+					"name": "id",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "ceb65b57-1fa3-ed11-994c-000d3a66eaa0"
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "idocAdapter",
+	"endpoint": "/api/serverscript/idocadapter",
+	"ver": "23.2.2.1733",
+	"version": "1.0",
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "66fca407-1aa3-ed11-994c-000d3a66eaa0",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

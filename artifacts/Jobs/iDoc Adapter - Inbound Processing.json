@@ -1,0 +1,35 @@
+{
+	"id": "d2ac625d-1ca3-ed11-994c-000d3a66eaa0",
+	"createdAt": "2023-02-02T17:09:34.986Z",
+	"createdBy": "ole-andre.haugen@neptune-software.com",
+	"scripts": [
+		{
+			"id": "101A462B-1BA3-ED11-994C-000D3A66EAA0",
+			"name": "idocProcess",
+			"number": 1,
+			"abort": true,
+			"continue": false,
+			"skipto": false
+		}
+	],
+	"name": "iDoc Adapter - Inbound Processing",
+	"description": "iDoc Adapter - Inbound Processing",
+	"alertEmail": null,
+	"active": true,
+	"execStatus": "Job Completed",
+	"lastExecStartTime": null,
+	"lastExecStopTime": "2023-02-07T15:23:11.000Z",
+	"intervalMonths": null,
+	"intervalDays": 0,
+	"intervalHours": null,
+	"intervalMinutes": 1,
+	"intervalSeconds": null,
+	"maxRuntimeSeconds": "500",
+	"restartMaxRuntimeAbort": false,
+	"startdate": "2023-02-07T15:24:00.000Z",
+	"stopdate": "9999-12-31T00:00:00.000Z",
+	"executeInNextCycle": false,
+	"ver": "23.2.2.1710",
+	"machineId": "5af7878e706e2bf979467a0c394aad6124bf3375343d6b1b3a6df79b1ce1951c",
+	"package": "66fca407-1aa3-ed11-994c-000d3a66eaa0"
+}
